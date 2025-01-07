@@ -1,5 +1,9 @@
 import './style.css';
 
+const content = document.createElement('div');
+content.innerHTML = '<p>Этот текст добавлен с помощью JS</p>';
+document.body.append(content);
+
 // Определение интерфейса для данных из JSON.
 interface Contact {
     id: number;
